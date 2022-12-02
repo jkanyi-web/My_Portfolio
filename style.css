@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Crete+Round&family=Poppins&family=Roboto:wght@500&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.appbar {
+  width: 375px;
+  height: 92px;
+  background-color: #3c3a39;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.statusbar {
+  width: 375px;
+  height: 44px;
+  display: flex;
+}
+
+.time {
+  margin: 15px 20px 15px 20px;
+  width: 54px;
+  height: 16px;
+  font-style: medium;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 100%;
+  align-self: center;
+}
+
+.logoplaceholder {
+  align-self: center;
+  margin: 15px;
+}
+
+.headline {
+  width: 375px;
+  height: 590px;
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+}
+
+.primarytext {
+  width: 327px;
+  height: 124px;
+  margin: 120px 24px 12px 24px;
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-style: regular;
+  font-size: 56px;
+  line-height: 64px;
+  line-height: 90%;
+  letter-spacing: 0.3px;
+}
+
+.supportingtext {
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-size: 24px;
+  line-height: 32px;
+  line-height: 114%;
+  align-items: left;
+  color: #fff;
+  margin: 0 24px 0 24px;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-style: regular;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: left;
+  margin: 12px 24px 12px 24px;
+  color: #fff;
+  letter-spacing: 0.1mm;
+}
+
+.socialmedia {
+  display: flex;
+  margin: 0 27px 0 27px;
+  justify-content: space-between;
+  width: 200px;
+  height: 20px;
+}
+
+.background {
+  align-self: flex-end;
+}
