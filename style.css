@@ -8,6 +8,41 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-branding {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  margin-top: 25px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
 .appbar {
@@ -27,7 +62,7 @@ html {
 }
 
 .time {
-  margin: 15px 20px 15px 20px;
+  margin: 15px 0 0 50px;
   width: 54px;
   height: 16px;
   font-style: medium;
@@ -39,7 +74,7 @@ html {
 
 .logoplaceholder {
   align-self: center;
-  margin: 15px;
+  margin: 0 10px;
 }
 
 .headline {
@@ -95,4 +130,5 @@ html {
 
 .background {
   align-self: flex-end;
+  flex-direction: column;
 }
