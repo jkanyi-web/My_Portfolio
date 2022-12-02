@@ -32,11 +32,12 @@
 In this project, I have set up my personal portfolio site for mobile devices.
 
 - Added a gitignore file
+- Added descriptive README file.
 - Added node_modules into the gitignore file
 - Set up a [linter for HTML and CSS](https://github.com/microverseinc/linters-config)
 - Added .html file
 - Added .css file
-- Added descriptive README file.
+- Added additional linter files
 
 ## 🛠 Built With <a name="built-with"></a>
 
