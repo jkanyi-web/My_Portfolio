@@ -18,7 +18,7 @@ body {
   list-style: none;
 }
 
-.headline {  
+.headline {
   display: grid;
   justify-content: space-around;
   text-align: left;
@@ -29,8 +29,9 @@ body {
   background-color: #1c1a19;
   background-image: url('./Images/Illustration.png');
   background-position: right bottom;
+  background-position-y: 120%;
   background-size: 150px;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .nav-branding {
@@ -94,15 +95,6 @@ a {
   margin: 0 10px;
 }
 
-.headline {
-  width: 375px;
-  height: auto;
-  background-color: #1c1a19;
-  display: flex;
-  flex-direction: column;
-  
-} 
-
 .primarytext {
   width: 327px;
   height: 124px;
@@ -111,8 +103,6 @@ a {
   font-family: 'Crete Round', serif;
   font-style: regular;
   font-size: 56px;
-  /* line-height: 64px; */
-  /* line-height: 90%; */
   letter-spacing: 0.3px;
 }
 
@@ -134,7 +124,7 @@ li {
 .description {
   font-family: 'Poppins', sans-serif;
   font-style: regular;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   align-items: left;
   margin: 0 24px 0 24px;
@@ -365,15 +355,14 @@ li {
 
 .item:hover {
   border: 3px solid #526079;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
 .art {
   background: url(images/Img\ Placeholder\ \(1\).png);
   width: 327px;
-  height: 386px;
-  
+  height: 386px;  
 }
 
 .links {
@@ -387,6 +376,11 @@ li {
   background-color: rgba(141, 138, 138, 0.5);
   border: 0;
 }
+
+.fullspan span {
+  text-align: center;
+}
+
 .links li > span {
   color: #f4f1f0;
 }
@@ -411,55 +405,45 @@ li {
   line-height: 24px;
   text-align: left;
   height: 87px;
-
 }
 
 .fullspanbtn {
   width: 100%;
-  height: 64px;
-  
-}
-
-.fullspan span {
-  text-align: center;
+  height: 64px;  
 }
 
 .me {
   height: 1901px;
-  display: grid;    
+  display: grid;
 }
 
 .myself {
   display: grid;
   background-color: #1c1a19;
-  display: grid;
   justify-content: space-around;
   text-align: left;
   padding: 120px 24px 0 24px;
-  height: 1901px;
+  height: auto;
   width: 375px;
   gap: 12px;
-  background-color: #1c1a19;
   background-image: url(./images/Group.png);
   background-position: right;
   background-position-y: 30%;
   background-size: 150px;
   background-repeat: no-repeat;
   margin: 0;
-    }
+}
 
 .myself h1 {
-  color: #ff6b00;  
+  color: #ff6b00;
   margin-bottom: 0;
-  font-size: ;
   width: 327px;
   height: 79px;
   font-family: 'Crete Round', sans-serif;
-  font-weight: 400; 
-  font-size: 72px; 
-  line-height: 88px; 
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
   letter-spacing: 0.37px;
-  
 }
 
 .myself p {
@@ -475,29 +459,28 @@ li {
 
 .image {
   display: block;
-  background: #fff;
   color: #fff;
   width: 300px;
   height: 1px;
-  display: grid;
   align-self: center;
   justify-content: center;
-  color: white;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 .horizontal {
-  margin: 0 20px;
-  height: 1px;
+  margin: 120px 30px 40px 30px;
+  height: 1px;  
 }
 
 .fullspan button {
   margin: 0 24px;
+  font-family: 'Inter', sans-serif;
+  color: white;
 }
 
 .griditem li {
@@ -506,26 +489,22 @@ li {
 
 .ulcontainer {
   text-align: center;
-  margin: 0;
+  margin-bottom: 10px;
   padding: 0;
 }
 
 .bigger-font {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .gradient {
-  color: #fff;
   font-family: 'Inter', sans-serif;
+  color: #fff;
   font-style: normal;
   padding-left: 0;
   font-weight: 400;
   font-size: 15px;
   line-height: 40px;
 }
-
-.aboutme {
-  margin: 0;
-}
-
