@@ -287,7 +287,7 @@ li {
   color: #091e42;
   flex: none;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 0;  
 }
 
 .item3 span {
@@ -481,6 +481,7 @@ li {
   margin: 0 24px;
   font-family: 'Inter', sans-serif;
   color: white;
+  float: right;
 }
 
 .griditem li {
