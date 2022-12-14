@@ -232,6 +232,10 @@ li {
   background-color: #fff;
 }
 
+form li + li {
+  margin-top: 1em;
+}
+
 .grid-container li {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
@@ -507,4 +511,149 @@ li {
   font-weight: 400;
   font-size: 15px;
   line-height: 40px;
+}
+
+.contact {
+  background: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 327px;
+  height: 216px;
+  margin: 120px 24px 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text h2 {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: bold;
+  font-size: 32px;
+  line-height: 44px;
+  line-height: 114%;
+  text-align: center;
+  vertical-align: top;
+  align-self: center;
+}
+
+form {
+  width: 327px;
+  height: 330px;
+  margin: 58px 24px 0 24px;
+  top: 394px;
+}
+
+.formul li {
+  width: 327px;
+  display: flex;
+  justify-content: center;
+}
+
+.msgcontainer {
+  background-color: #fbf8f7;
+  padding: 12px;
+}
+
+#name,
+#mail {
+  width: 327px;
+  height: 48px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+li input {
+  width: 295px;
+  height: 18px;
+  padding: 15px 16px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+li textarea {
+  height: 114px;
+  border: none;
+  background-color: #fbf8f7;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+.button button {
+  width: 131px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: bold;
+  font-size: 17px;
+  line-height: 24px;
+  line-height: 117%;
+  text-align: center;
+  vertical-align: center;
+  letter-spacing: 3%;
+  color: #fff;
+  margin: 12px;
+}
+
+.button button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #cc4d04;
+  cursor: pointer;
+  border: 2px solid #cc4d04;
+}
+
+.button button:disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+.button button:active {
+  background-color: #6b2903;
+  color: whitesmoke;
+}
+
+.social {
+  width: 375px;
+  height: 72px;
+}
+
+.icons {
+  margin: 15px 87px 15px 88px;
+}
+
+.icons li a img {
+  color: #505f79;
+}
+
+.finisher {
+  width: 375px;
+  height: 1px;
+  border: 1px solid #dfe1e6;
+}
+
+.shape {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 12rem;
 }
