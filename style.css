@@ -232,6 +232,10 @@ li {
   background-color: #fff;
 }
 
+form li + li {
+  margin-top: 1em;
+}
+
 .grid-container li {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
@@ -534,7 +538,7 @@ li {
   font-size: 32px;
   line-height: 44px;
   line-height: 114%;
-  text-align: Center;
+  text-align: center;
   vertical-align: top;
   align-self: center;
 }
@@ -572,14 +576,15 @@ li input {
   padding: 15px 16px;
 }
 
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
 li textarea {
   height: 114px;
   border: none;
   background-color: #fbf8f7;
-}
-
-form li + li {
-  margin-top: 1em;
 }
 
 input,
@@ -592,11 +597,6 @@ textarea {
 input:focus,
 textarea:focus {
   border-color: #000;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
 }
 
 .button button {
@@ -626,6 +626,7 @@ textarea {
 .icons li a img {
   color: #505f79;
 }
+
 .finisher {
   width: 375px;
   height: 1px;
