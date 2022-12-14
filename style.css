@@ -570,6 +570,13 @@ form {
   display: flex;
 }
 
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+}
+
 li input {
   width: 295px;
   height: 18px;
@@ -585,13 +592,6 @@ li textarea {
   height: 114px;
   border: none;
   background-color: #fbf8f7;
-}
-
-input,
-textarea {
-  font: 1em sans-serif;
-  width: 300px;
-  box-sizing: border-box;
 }
 
 input:focus,
