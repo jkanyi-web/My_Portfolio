@@ -340,13 +340,13 @@
             <form action="https://formspree.io/f/xyyvrrdo" method="post">
                 <ul class="formul">
                     <li>                        
-                        <input type="text" id="name" name="user_name" placeholder="Full name" />
+                        <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30chars" required/>
                     </li>
                     <li>                        
-                        <input type="email" id="mail" name="user_email" placeholder="Email address" />
+                        <input type="email" id="mail" name="user_email" placeholder="Email address" required/>
                     </li>
                     <li class="msgcontainer">            
-                        <textarea id="msg" name="user_message">Enter text here</textarea>
+                        <textarea id="msg" name="user_message" placeholder="Enter text here" maxlength="500chars" required></textarea>
                     </li>
                     <li class="button">
                         <button type="submit" class="orange1">Get in touch</button>

@@ -614,6 +614,24 @@ textarea:focus {
   margin: 12px;
 }
 
+.button button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #cc4d04;
+  cursor: pointer;
+  border: 2px solid #cc4d04;
+}
+
+.button button:disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+.button button:active {
+  background-color: #6b2903;
+  color: whitesmoke;
+}
+
 .social {
   width: 375px;
   height: 72px;
