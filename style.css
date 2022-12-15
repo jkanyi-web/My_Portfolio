@@ -74,7 +74,7 @@ a {
   background-color: whitesmoke;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -169,10 +169,6 @@ a {
   align-items: left;
   color: #fff;
   margin: 0 24px 0 24px;
-}
-
-li {
-  list-style: none;
 }
 
 .description {
@@ -486,7 +482,8 @@ form li + li {
   gap: 12px;
   background-image: url(./images/Group.png);
   background-position: right;
-  background-position-y: 36%;  background-size: 150px;
+  background-position-y: 36%;
+  background-size: 150px;
   background-repeat: no-repeat;
   margin: 0;
 }
