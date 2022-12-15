@@ -14,6 +14,104 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #3c3a39;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding {
+  font-size: 2.5rem;
+}
+
+.nav-branding:hover {
+  color: #ff6b00;
+  transition: 0.7s ease;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #ff6b00;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: whitesmoke;
+}
+
+@media(max-width:768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #3c3a39;
+    width: 375px;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
+
 .li {
   list-style: none;
 }
@@ -34,45 +132,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.nav-branding {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-.navbar {
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-  margin-top: 25px;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: white;
-}
-
-.appbar {
-  width: 375px;
-  height: 92px;
-  background-color: #3c3a39;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-
 .statusbar {
   width: 375px;
   height: 44px;
@@ -88,11 +147,6 @@ a {
   line-height: 16px;
   line-height: 100%;
   align-self: center;
-}
-
-.logoplaceholder {
-  align-self: center;
-  margin: 0 10px;
 }
 
 .primarytext {
@@ -124,7 +178,7 @@ li {
 .description {
   font-family: 'Poppins', sans-serif;
   font-style: regular;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   align-items: left;
   margin: 0 24px 0 24px;
@@ -432,8 +486,7 @@ form li + li {
   gap: 12px;
   background-image: url(./images/Group.png);
   background-position: right;
-  background-position-y: 30%;
-  background-size: 150px;
+  background-position-y: 36%;  background-size: 150px;
   background-repeat: no-repeat;
   margin: 0;
 }
