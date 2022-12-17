@@ -36,7 +36,7 @@ body {
 }
 
 header {
-  background-color: var(--bg-color-header);
+  background-color: #3e3c3c;
 }
 
 li {
@@ -148,7 +148,7 @@ a {
   width: auto;
   gap: 12px;
   background-color: var(--bg-headline);
-  background-image: url('./Images/Illustration.png');
+  background-image: url(images/Illustration.png);
   background-position: right bottom;
   background-position-y: 120%;
   background-size: 150px;
@@ -295,7 +295,7 @@ a {
 }
 
 .works-img {
-  background: url(./Images/Img\ Placeholder.png);
+  background: url(./images/desktopimg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 327px;
@@ -366,7 +366,7 @@ a {
   min-width: 327px;
   max-width: 369px;
   width: 100%;
-  background: url(images/Img\ Placeholder\ 1.png);
+  background: url(images/bgworks1.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 386px;
@@ -809,6 +809,9 @@ textarea:focus {
     font-size: 17px;
     line-height: 24px;
     line-height: 117%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    vertical-align: top;
   }
 
   .multi-posts-details p {
@@ -816,6 +819,7 @@ textarea:focus {
     font-size: 20px;
     line-height: 28px;
     line-height: 116%;
+    color: var(--text-about);
   }
 
   header {
@@ -856,6 +860,10 @@ textarea:focus {
     line-height: 89%;
     text-align: left;
     vertical-align: top;
+  }
+
+  .project-card h2 {
+    margin-top: 100px;
   }
 
   .text h2 {
@@ -908,6 +916,11 @@ textarea:focus {
     display: inline;
   }
 
+  .project-card p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
   .main-content div p {
     font-family: 'Inter', sans-serif;
     font-style: regular;
@@ -945,8 +958,14 @@ textarea:focus {
     display: flex;
   }
 
-  .works-heading .header-text {
-    width: 50%;
+  .works-heading,
+  .header-text {
+    color: #091e42;
+    font-size: 40px;
+    line-height: 52px;
+    font-family: 'Crete Round', serif;
+    vertical-align: center;
+    text-align: left;
   }
 
   .works-header-divider {
@@ -975,8 +994,12 @@ textarea:focus {
     grid-template-rows: 435px 435px;
   }
 
+  .stack-list {
+    margin-top: 20px;
+  }
+
   .card1 {
-    background: url(images/Img\ Placeholder\ 1.png);
+    background: url(images/bgworks1.png);
   }
 
   .card2 {
@@ -997,6 +1020,17 @@ textarea:focus {
 
   .project-card:hover .pjt-button {
     opacity: 1;
+  }
+
+  .project-card:hover > :not(button) {
+    opacity: 0;
+  }
+
+  .card {
+    margin-bottom: -50px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
   }
 
   .about {
