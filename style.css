@@ -69,11 +69,11 @@ a {
 
 .nav-branding:hover {
   color: var(--header-color);
-  transition: 0.7s ease;
+  transition: 800ms ease;
 }
 
 .nav-link {
-  transition: 0.7s ease;
+  transition: 700ms ease;
 }
 
 .nav-link:hover {
@@ -257,6 +257,11 @@ a {
   height: 20px;
 }
 
+.main-btn:hover {
+  background-color: rgba(245, 122, 22, 0.8);
+  transition: 500ms;
+}
+
 /* My Recent Works section */
 
 .works {
@@ -335,6 +340,7 @@ a {
   width: 100%;
   justify-content: flex-start;
   padding: 0;
+  margin-top: 20px;
 }
 
 .stack-list li a {
