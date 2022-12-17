@@ -833,7 +833,7 @@ textarea:focus {
   }
 
   .intro {
-    background-image: url(./Images/desktopheadline.png);
+    background-image: url(./images/desktopheadline.png);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-position-y: 7%;
