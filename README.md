@@ -63,6 +63,10 @@ In this project, I have set up my personal portfolio site for mobile devices.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## live demo <a name="live-demo"></a>
+
+To view the deployed project visit: <https://jkanyi-web.github.io/>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites

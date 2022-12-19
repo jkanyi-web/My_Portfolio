@@ -257,6 +257,14 @@ a {
   height: 20px;
 }
 
+.main-btn {
+  font-family: Inter, serif;
+  font-weight: 700;
+  background-color: var(--primary-text-color);
+  color: var(--text-color-white);
+  text-align: center;
+}
+
 .main-btn:hover {
   background-color: rgba(245, 122, 22, 0.8);
   transition: 500ms;
@@ -767,14 +775,6 @@ textarea:focus {
   justify-content: center;
   align-self: center;
   margin-bottom: 12rem;
-}
-
-.main-btn {
-  font-family: Inter, serif;
-  font-weight: 700;
-  background-color: var(--primary-text-color);
-  color: var(--text-color-white);
-  text-align: center;
 }
 
 @media all and (min-width: 768px) {
