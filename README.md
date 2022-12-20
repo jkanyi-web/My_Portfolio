@@ -2,9 +2,6 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Portfolio Setup</b></h3>
 
 </div>
@@ -31,13 +28,13 @@
 
 In this project, I have set up my personal portfolio site for mobile devices.
 
-- Added a gitignore file.
+- Added a gitignore file
 - Added descriptive README file.
-- Added node_modules into the gitignore file.
+- Added node_modules into the gitignore file
 - Set up a [linter for HTML and CSS](https://github.com/microverseinc/linters-config)
-- Added .html file.
-- Added .css file.
-- Added additional linter files.
+- Added .html file
+- Added .css file
+- Added additional linter files
 
 ## 🛠 Built With <a name="built-with"></a>
 
