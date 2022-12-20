@@ -264,11 +264,12 @@ a {
   color: rgb(19, 10, 2);
   text-align: center;
   transition-duration: 500ms;
-  transition-property: background-color;
+  transition-property: background-color, color;
 }
 
 .main-btn:hover {
-  background-color: rgb(226, 187, 13);
+  background-color: rgb(129, 71, 5);
+  color: rgb(226, 226, 226);
 }
 
 /* My Recent Works section */
@@ -464,7 +465,6 @@ a {
 .orange1:hover {
   cursor: pointer;
   background-color: #cc4d04;
-  border: 5px solid #cc4d04;
 }
 
 .orange1:active {
@@ -1202,14 +1202,15 @@ textarea:focus {
   }
 
   /* button states */
+  
   .main-btn:hover {
     background: #632805;
-    color: #fff;
+    color: rgb(224, 224, 4);
   }
 
   .main-btn:focus {
-    background: #381603;
-    color: #fff;
+    background: #803104;
+    color: rgb(231, 231, 231);
   }
 
   form ul {
