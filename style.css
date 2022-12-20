@@ -464,7 +464,7 @@ a {
 .orange1:hover {
   cursor: pointer;
   background-color: #cc4d04;
-  border: 5px solid #cc4d04;;
+  border: 5px solid #cc4d04;
 }
 
 .orange1:active {
@@ -1204,12 +1204,12 @@ textarea:focus {
   /* button states */
   .main-btn:hover {
     background: #632805;
-    color: #ffffff;
+    color: #fff;
   }
 
   .main-btn:focus {
     background: #381603;
-    color: #ffffff;
+    color: #fff;
   }
 
   form ul {
