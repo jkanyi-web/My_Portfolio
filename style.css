@@ -308,12 +308,11 @@ a {
 }
 
 .works-img {
-  background: url(./images/desktopimg.png);
+  background: url(./images/Placeholder.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 327px;
-  max-width: 684px;
-  min-height: 237px;
+  height: 237px;
 }
 
 .multi-posts-details {
@@ -984,6 +983,7 @@ textarea:focus {
   }
 
   .works-img {
+    background-image: url(./images/desktopimg.png);
     width: 684px;
     height: 448px;
     flex-grow: 2;
