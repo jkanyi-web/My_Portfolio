@@ -68,7 +68,7 @@ a {
 }
 
 .nav-branding:hover {
-  color: var(--header-color);
+  color: rgb(255, 192, 75);
   transition: 800ms ease;
 }
 
@@ -77,7 +77,7 @@ a {
 }
 
 .nav-link:hover {
-  color: var(--header-color);
+  color: rgb(252, 255, 80);
 }
 
 .hamburger {
@@ -260,14 +260,16 @@ a {
 .main-btn {
   font-family: Inter, serif;
   font-weight: 700;
-  background-color: var(--primary-text-color);
-  color: var(--text-color-white);
+  background-color: rgb(255, 102, 0);
+  color: rgb(19, 10, 2);
   text-align: center;
+  transition-duration: 500ms;
+  transition-property: background-color, color;
 }
 
 .main-btn:hover {
-  background-color: rgba(245, 122, 22, 0.8);
-  transition: 500ms;
+  background-color: rgb(129, 71, 5);
+  color: rgb(226, 226, 226);
 }
 
 /* My Recent Works section */
@@ -436,11 +438,10 @@ a {
   margin-top: 10px;
   width: 124px;
   height: 36px;
-  background: #ff6b00;
+  background: #e96507;
   flex: none;
   order: 3;
   flex-grow: 0;
-  border: 2px solid #f55800;
 }
 
 .orange1 span {
@@ -469,7 +470,7 @@ a {
 .orange1:active {
   border-radius: 5px;
   gap: 10px;
-  background: #a74105;
+  background: #db5203;
 }
 
 .orange1:disabled {
@@ -482,7 +483,8 @@ a {
   width: 93px;
   height: 48px;
   left: 564px;
-  background: #f4f1f0;
+  background: #131312;
+  color: white;
 }
 
 .about {
@@ -596,7 +598,7 @@ a {
 .fullspan button {
   margin: 0 24px;
   font-family: 'Inter', sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .griditem li {
@@ -728,13 +730,13 @@ textarea:focus {
   text-align: center;
   vertical-align: center;
   letter-spacing: 3%;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin: 12px;
 }
 
 .button button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: #cc4d04;
+  background-color: rgb(0, 0, 0);
+  color: #e7e3e1;
   cursor: pointer;
   border: 2px solid #cc4d04;
 }
@@ -1200,15 +1202,15 @@ textarea:focus {
   }
 
   /* button states */
+
   .main-btn:hover {
-    background: #fff5e1;
-    border: 1px solid #f55800;
-    color: #f55800;
+    background: #632805;
+    color: rgb(255, 255, 253);
   }
 
   .main-btn:focus {
-    background: #e05304;
-    color: #f4f1f0;
+    background: #f3620d;
+    color: rgb(22, 19, 19);
   }
 
   form ul {

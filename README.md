@@ -12,6 +12,7 @@
 - [🛠 Built With](#built-with)
 - [Tech Stack](#tech-stack)
 - [Key Features](#key-features)
+- [View Desployment](https://jkanyi-web.github.io/)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -28,12 +29,12 @@
 
 In this project, I have set up my personal portfolio site for mobile devices.
 
-- Added a gitignore file
+- Added a gitignore file.
 - Added descriptive README file.
 - Added node_modules into the gitignore file
 - Set up a [linter for HTML and CSS](https://github.com/microverseinc/linters-config)
-- Added .html file
-- Added .css file
+- Added .html file.
+- Added .css file.
 - Added additional linter files
 
 ## 🛠 Built With <a name="built-with"></a>
