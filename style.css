@@ -1078,12 +1078,8 @@ textarea:focus {
     opacity: 1;
   }
 
-  .project-card:hover > :not(button) {
-    opacity: 0;
-  }
-
   .card {
-    margin-bottom: -50px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-content: flex-end;
