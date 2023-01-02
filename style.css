@@ -3,7 +3,6 @@
 html,
 body {
   box-sizing: border-box;
-  width: 375px;
 }
 
 *,
@@ -155,7 +154,7 @@ a {
     gap: 0;
     flex-direction: column;
     background-color: var(--bg-color-header);
-    width: 375px;
+    width: 100%;
     height: 718px;
     text-align: center;
     transition: 0.5s;
@@ -215,7 +214,7 @@ a {
 }
 
 .statusbar {
-  width: 375px;
+  width: 100%;
   height: 44px;
   display: flex;
 }
@@ -565,7 +564,7 @@ a {
   display: grid;
   justify-content: start;
   padding: 20px;
-  width: 375px;
+  width: 100%;
 }
 
 .about h1 {
@@ -614,7 +613,7 @@ a {
   text-align: left;
   padding: 120px 24px 0 24px;
   height: auto;
-  width: 375px;
+  width: 100%;
   gap: 12px;
   background-image: url(./images/Group.png);
   background-position: right;
@@ -825,7 +824,7 @@ textarea:focus {
 }
 
 .social {
-  width: 375px;
+  width: 100%;
   height: 72px;
 }
 
@@ -838,7 +837,7 @@ textarea:focus {
 }
 
 .finisher {
-  width: 375px;
+  width: 100%;
   height: 1px;
   border: 1px solid #dfe1e6;
 }
@@ -852,7 +851,7 @@ textarea:focus {
 
 @media all and (min-width: 768px) {
   body {
-    width: 1440px;
+    width: 100%;
     height: 870px;
   }
 
@@ -904,7 +903,7 @@ textarea:focus {
   header {
     position: fixed;
     z-index: 1;
-    width: 1440px;
+    width: 100%;
   }
 
   .nav-menu {
@@ -918,12 +917,12 @@ textarea:focus {
     background-position-y: 7%;
     background-size: 500px;
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 870px;
   }
 
   .main-content {
-    width: 566px;
+    width: 50%;
     height: 739px;
     box-sizing: border-box;
     margin-left: -620px;
@@ -1047,18 +1046,13 @@ textarea:focus {
     text-align: left;
   }
 
-  .works-header-divider {
-    width: 794px;
-    flex: 1;
-  }
-
   .multi-posts-frame {
     flex-direction: row;
   }
 
   .works-img {
     background-image: url(./images/desktopimg.png);
-    width: 684px;
+    width: 60%;
     height: 448px;
     flex-grow: 2;
     flex-basis: 65%;
@@ -1110,7 +1104,7 @@ textarea:focus {
   }
 
   .about {
-    width: 1440px;
+    width: 100%;
     height: 1195px;
     background-image: url(images/desktop-about\ me.png);
     background-position: top right;
@@ -1122,7 +1116,7 @@ textarea:focus {
   .aboutwrapper {
     box-sizing: border-box;
     margin-bottom: 0;
-    width: 566px;
+    width: 40%;
     height: 582px;
     display: flex;
     flex-direction: column;
@@ -1158,7 +1152,7 @@ textarea:focus {
   .ulwrapper {
     display: flex;
     flex-direction: row;
-    width: 1157.46px;
+    width: 100%;
     height: 596px;
     margin: 0;
     justify-content: space-around;
@@ -1187,7 +1181,6 @@ textarea:focus {
   }
 
   .about-me {
-    max-width: 566px;
     align-self: flex-start;
     margin-inline: 10%;
   }
