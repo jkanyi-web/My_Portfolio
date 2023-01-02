@@ -149,22 +149,46 @@ a {
 
   .nav-menu {
     position: fixed;
+    z-index: 1;
     left: -100%;
     top: 70px;
     gap: 0;
     flex-direction: column;
     background-color: var(--bg-color-header);
     width: 375px;
+    height: 718px;
     text-align: center;
     transition: 0.5s;
+    justify-content: flex-start;
   }
 
-  .nav-item {
-    margin: 16px 0;
+  .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 32px;
+    margin-left: -170px;
+  }
+
+  .mrg {
+    margin-left: -215px;
+  }
+
+  .cont {
+    margin-left: -185px;
   }
 
   .nav-menu.active {
     left: 0;
+  }
+
+  .nav-item {
+    border-bottom: 1px solid #6F6C6B;
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 56px;
+    margin: 20px 0;
   }
 }
 
