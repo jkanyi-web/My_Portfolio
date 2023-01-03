@@ -131,7 +131,7 @@ a {
 
 @media (max-width: 768px) {
   body {
-    width: 375px;
+    width: 100%;
   }
 
   .hamburger {
@@ -158,7 +158,7 @@ a {
     gap: 0;
     flex-direction: column;
     background-color: var(--bg-color-header);
-    width: 375px;
+    width:100%;
     height: 718px;
     text-align: center;
     transition: 0.5s;
