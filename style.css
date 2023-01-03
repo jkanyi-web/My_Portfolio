@@ -1216,6 +1216,7 @@ textarea:focus {
     margin-right: 10rem;
   }
 }
+
 @media (max-width: 768px) {
   body {
     width: 100%;
