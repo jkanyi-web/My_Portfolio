@@ -1,13 +1,21 @@
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+const crossButton = document.querySelector('.overlay-cross-button');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const navHamIcon = document.querySelector('.navigate');
+const mobileMenuLinks = document.querySelectorAll('.list-item > a');
 
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navMenu.classList.toggle('active');
+navHamIcon.addEventListener('click', () => {
+  mobileMenuOverlay.style.right = '0';
+  mobileMenuOverlay.style.display = 'flex';
 });
 
-const navLink = document.querySelectorAll('.nav-link');
-navLink.forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
+crossButton.addEventListener('click', () => {
+  mobileMenuOverlay.style.right = '100%';
+  mobileMenuOverlay.style.display = 'none';
+});
+
+mobileMenuLinks.forEach((mobileMenuLink) => {
+  mobileMenuLink.addEventListener('click', () => {
+    mobileMenuOverlay.style.right = '100%';
+    mobileMenuOverlay.style.display = 'none';
+  });
+});
