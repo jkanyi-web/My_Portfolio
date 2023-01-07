@@ -310,7 +310,7 @@ li {
   background-image: url(images/Group.png);
   background-repeat: no-repeat;
   background-position: right 0 bottom 120px;
-  background-position-y: 260px;
+  background-position-y: 370px;
 }
 
 .about {
@@ -962,7 +962,7 @@ body article {
   #card-button-source {
     margin-right: 100px !important;
   }
-  
+
   .card-cross {
     top: 2%;
     left: 96%;
