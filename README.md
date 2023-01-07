@@ -54,9 +54,9 @@ In this project, I have set up my personal portfolio site for mobile devices.
 
 ### Key Features <a name="key-features"></a>
 
-- **Responsive**
--**Mobile first**
--**Popup Mobile and Desktop window**
+- ** Responsive **
+-** Mobile first **
+-** Popup Mobile and Desktop window **
 - No linter Errors**
 - **Used GitHub flow**
 - **Figma design to UI development**
