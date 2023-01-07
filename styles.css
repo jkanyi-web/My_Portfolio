@@ -523,6 +523,7 @@ label {
   height: auto;
   z-index: 5;
   justify-content: center;
+  margin-bottom: 100px !important; 
 }
 
 .card {
@@ -561,8 +562,8 @@ label {
   width: 30px;
   padding-top: 0;
   transition: 0.3s;
-  top: 5%;
-  left: 88%;
+  top: 2%;
+  left: 96%;
   height: 20px;
   z-index: 5;
 }
@@ -674,11 +675,16 @@ label {
 
 .invisible {
   display: none !important;
+  margin-bottom: 100px !important;
 }
 
 .contact-form-small {
   font-family: 'Inter', sans-serif;
   color: #dc3545;
+}
+
+body article {
+  margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {

@@ -15,7 +15,7 @@ const card1 = {
 };
 
 const card2 = {
-  title1: 'Professional Art Printing Data',
+  title1: 'Keeping track of hundreds  of components website',
   title: 'Multi Post Stories',
   techList: ['html', 'Bootstrap', 'Ruby on rails'],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -32,7 +32,7 @@ const card2 = {
 
 const card3 = {
   title1: 'Professional Art Printing Data',
-  title: 'Multi Post Stories',
+  title: 'Keeping track of hundreds  of components website',
   techList: ['html', 'Bootstrap', 'Ruby on rails'],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
       standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -48,7 +48,7 @@ const card3 = {
 
 const card4 = {
   title1: 'Professional Art Printing Data',
-  title: 'Multi Post Stories',
+  title: 'Keeping track of hundreds  of components website',
   techList: ['html', 'Bootstrap', 'Ruby on rails'],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
       standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -64,7 +64,7 @@ const card4 = {
 
 const card5 = {
   title1: 'Professional Art Printing Data',
-  title: 'Multi Post Stories',
+  title: 'Keeping track of hundreds  of components website',
   techList: ['html', 'Bootstrap', 'Ruby on rails'],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -80,7 +80,7 @@ const card5 = {
 
 const card6 = {
   title1: 'Professional Art Printing Data ',
-  title: 'Multi Post Stories',
+  title: 'Keeping track of hundreds  of components website',
   techList: ['html', 'Bootstrap', 'Ruby on rails'],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
       standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
