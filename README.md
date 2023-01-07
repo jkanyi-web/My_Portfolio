@@ -56,6 +56,7 @@ In this project, I have set up my personal portfolio site for mobile devices.
 
 - ** Responsive **
 -** Mobile first **
+-** Validate and storage locala  **
 -** Popup Mobile and Desktop window**
 - No linter Errors**
 - **Used GitHub flow**
