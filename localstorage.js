@@ -12,9 +12,9 @@ function storeForm() {
   localStorage.setItem('storage', JSON.stringify(myStorage));
 }
 
-userName.addEventListener('onchange', storeForm);
-userEmail.addEventListener('onchange', storeForm);
-userComment.addEventListener('onchange', storeForm);
+userName.addEventListener('change', storeForm);
+userEmail.addEventListener('change', storeForm);
+userComment.addEventListener('change', storeForm);
 
 function refresh() {
   if (localStorage.getItem('storage')) {
