@@ -621,7 +621,7 @@ label {
   display: flex;
   align-items: center;
   max-width: 700px;
-  margin: 24.125% 6.5% 1% 6.5%;
+  margin: 15.125% 6.5% 1% 6.5%;
   gap: 10px;
   justify-content: space-between;
 }
@@ -961,6 +961,20 @@ body article {
 
   #card-button-source {
     margin-right: 100px !important;
+  }
+  
+  .card-cross {
+    top: 2%;
+    left: 96%;
+  }
+
+  #recent {
+    margin-left: -30px;
+  }
+
+  #proCard {
+    margin: 0;
+    padding: 0;
   }
 }
 
