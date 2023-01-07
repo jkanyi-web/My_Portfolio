@@ -54,7 +54,6 @@ In this project, I have set up my personal portfolio site for mobile devices.
 
 ### Key Features <a name="key-features"></a>
 
-- ** Validation input Data **
 - **Used GitHub flow**
 - **Figma design to UI development**
 - **Used Flexbox to place elements**
