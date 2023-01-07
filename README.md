@@ -54,7 +54,10 @@ In this project, I have set up my personal portfolio site for mobile devices.
 
 ### Key Features <a name="key-features"></a>
 
-- **No linter Errors**
+- ** Responsive **
+-** Mobile first **
+-** Popup Mobile and Desktop window**
+- No linter Errors**
 - **Used GitHub flow**
 - **Figma design to UI development**
 - **Used Flexbox to place elements**
@@ -119,7 +122,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/jkanyi-web/Microverse_Portfolio.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

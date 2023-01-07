@@ -2,337 +2,249 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortfolioProject</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Caramel&family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@500&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Victor's Portfolio Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <script src="https://kit.fontawesome.com/b89b7c8adf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body>    
-        <header title="Header Sectionwith Responsive Navigation Bar">
-            <nav class="navbar">
-                <a href="#" class="nav-branding">Victor.K.</a>
-        
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>                        
-                    </li>
-                    <li class="nav-item">
-                        <a href="#myself" class="nav-link mrg">About</a>                     
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link cont">Contact</a>     
-                    </li>
-                </ul>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
-        </header>
-    <section class="headline intro" id="about" title="Introductory Section">
-        <div class="main-content">
-            <div class="head">
-                <h1 class="primarytext">Hey There.
-                    <br>
-                     I'm Victor</h1>>
-            </div>
-            <div class="neck">
-                <h2 class="supportingtext">I'm a software developer</h2>
-            </div>
-            <div class="spine">
-                <p class="description">I can help you build a product , feature or website. Look through some of my work and
-                    experience! If you like what you
-                    see and have a project you need coded,
-                    don’t hestiate to contact me.</p>
-            </div>
+
+<body>
+  <div class="body">
+    <header>
+      <div class="mobile-menu-overlay mobile-only" id="mobile-menu-overlay">
+        <button class="overlay-cross-button" type="button">
+          <img class="overlay-cross-icon" src="images/CrossIcon.png" alt="cross icon" />
+        </button>
+        <ul class="overlay-list">
+          <li class="list-item">
+            <a href="#portfolio">
+              <h2 class="overlay-heading">Portfolio</h2>
+            </a>
+            <hr />
+          </li>
+          <li class="list-item">
+            <a href="#about">
+              <h2 class="overlay-heading">About</h2>
+            </a>
+            <hr />
+          </li>
+          <li class="list-item">
+            <a href="#contact">
+              <h2 class="overlay-heading">Contact</h2>
+            </a>
+            <hr />
+          </li>
+        </ul>
+      </div>
+      <div class="header mobile-only">
+        <a class="logo" href="">Victor.K</a>
+        <nav class="navigate" id="menu">
+          <a href="#mobile-menu-overlay"><img src="images/Union.png" alt="" /></a>
+        </nav>
+      </div>
+      <div class="header_ desktop-only">
+        <a class="logo" href="">Victor Kanyi</a>
+        <div class="header_right">
+          <a class="header_items" href="">Portfolio</a>
+          <a class="header_items" href="">About</a>
+          <a class="header_items" href="">Contact</a>
+          <a href=""><img src="images/envelope.png" alt="envelope logo" /></a>
         </div>
-            <div class="parent first">
-                <ul class="socialmedia first-icons">
-                    <li>
-                        <a href="#">
-                            <img src="images/github.png" alt="gthub logo">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/linkedin1.png" alt="linkedin logo">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/chill.png" alt="Chill logo">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/Vector.png" alt="twitter logo">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/M.png" alt="M logo">
-                        </a>
-                    </li>                  
-                </ul>                
-            </div>
+      </div>
+    </header>
+    <section>
+      <div class="heading-section">
+        <div class="heading-section-text">
+          <h1 class="heading">Hey There <br />I’m Victor</h1>
+          <h2 class="describe">I am a Software Developer</h2>
+          <p class="headline">
+            I can help you build a product , feature or website. Look through some
+            of my work and experience! If you like what you see and have a project
+            you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+        <ul class="social">
+          <li class="social-icons">
+            <a href="#"><img src="images/github.png" alt="gthub logo"/></a>
+          </li>
+          <li class="social-icons">
+            <a href="#"><img src="images/linkedin1.png" alt="linkedin logo"></a>
+          </li>
+          <li class="social-icons">
+            <a href="#"><img src="images/chill.png" alt="Chill logo"></a>
+          <li class="social-icons">
+            <a href="#"><img src="images/Vector.png" alt="twitter logo"></a>
+          </li>
+          <li class="social-icons">
+            <a href="#"><img src="images/M.png" alt="M logo"></a>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section class="works" id="portfolio" title="Recent-Works-Section">
-        <div class="works-heading">
-            <h1 class="header-text">My Recent Works</h1>
-            <hr id="works-header-divider">
-        </div>
-        <div class="multi-posts-frame">
-            <div class="works-img"></div>
-            <div class="multi-posts-details">
-                <h2 class="header-text">Multi-Post Stories</h2>
-                <p class="description2-text">A daily selection of privately personalized reads; no accounts or sign-ups
-                    required.
-                    has been the industry's standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <div class="stack-list-container" title="stack-list">
-                    <ul class="stack-list">
-                        <li><a href="#">css</a></li>
-                        <li><a href="#">html</a></li>
-                        <li><a href="#">bootstrap</a></li>
-                        <li><a href="#">Ruby</a></li>
-                    </ul>
-                </div>
-                <a href="#" class="multiposts-btn main-btn">See Project</a>
-            </div>
-        </div>
-        <div class="projects">
-            <div class="project-card card1">
-                <div class="card">                
-                    <h2 class="header-text">Profesional Art Printing Data</h2>
-                    <p class="description2-text">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's
-                        standard
-                    </p>
-                    <div>
-                        <ul class="stack-list">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">bootstrap</a></li>
-                            <li><a href="#">Ruby</a></li>
-                        </ul>
-                    </div>         
-                </div>
-                <button class="pjt-button main-btn" type="submit">See Project</button>
-            </div>
-            <div class="project-card card2">
-                <div class="card">
-                    <h2 class="header-text">Profesional Art Printing Data</h2>
-                    <p class="description2-text">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's
-                        standard
-                    </p>
-                    <div>
-                        <ul class="stack-list">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">bootstrap</a></li>
-                            <li><a href="#">Ruby</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <button class="pjt-button main-btn" type="submit">See Project</button>
-            </div>
-            <div class="project-card card3">
-                <div class="card">
-                    <h2 class="header-text">Profesional Art Printing Data</h2>
-                    <p class="description2-text">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's
-                        standard
-                    </p>
-                    <div>
-                        <ul class="stack-list">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">bootstrap</a></li>
-                            <li><a href="#">Ruby</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <button class="pjt-button main-btn" type="submit">See Project</button>
-            </div>
-            <div class="project-card card4">
-                <div class="card">
-                    <h2 class="header-text">Profesional Art Printing Data</h2>
-                    <p class="description2-text">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's
-                        standard
-                    </p>
-                    <div>
-                        <ul class="stack-list">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">bootstrap</a></li>
-                            <li><a href="#">Ruby</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <button class="pjt-button main-btn" type="submit">See Project</button>
-            </div>
-            <div class="project-card card2">
-                <div class="card">
-                    <h2 class="header-text">Profesional Art Printing Data</h2>
-                    <p class="description2-text">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's
-                        standard
-                    </p>
-                    <div>
-                        <ul class="stack-list">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">bootstrap</a></li>
-                            <li><a href="#">Ruby</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <button class="pjt-button main-btn" type="submit">See Project</button>
-            </div>
-            <div class="project-card card3">
-                <div class="card">
-                    <h2 class="header-text">Profesional Art Printing Data</h2>
-                    <p class="description2-text">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's
-                        standard
-                    </p>
-                    <div>
-                        <ul class="stack-list">
-                            <li><a href="#">html</a></li>
-                            <li><a href="#">bootstrap</a></li>
-                            <li><a href="#">Ruby</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <button class="pjt-button main-btn" type="submit">See Project</button>
-            </div>    
-        </div>
-    </section>
-        <section class="about myself background" title="About-Myself Section" id="myself">
-            <div class="aboutwrapper">
-                <h1 class="primarytext ahead head">
-                    About Me
-                </h1>
-                <p class="description text spine">
-                    Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and
-                    experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                </p>
-                
-                    <a href="#" class="fullspan">
-                        <button type="submit" class="orange1 main-btn">
-                                Get My Resume
-                        </button>
-                    </a>
-                    <hr class="horizontal">
-            </div>          
-            <div class="ulwrapper">            
-                <ul class="ulcontainer">
-                    <li>                       
-                        <ul class="gradient">
-                            <img src="images/diamond.png" alt="diamond shape" class="diamond">
-                            <li class="bigger-font">Language</li>
-                            <li>Javacript</li>
-                            <li>Ruby</li>
-                            <li>html</li>
-                            <li>css</li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="ulcontainer">
-                    <li>                        
-                        <ul class="gradient">
-                            <img src="images/squareme.png" alt="square shape">
-                            <li class="bigger-font">Frameworks</li>
-                            <li>Bootstrap</li>
-                            <li>Ruby on Rails</li>
-                            <li>RSPec</lihref=>
-                            <li>CapyBara</li>
-                            <li>Selenium</li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="ulcontainer">
-                    <li>                        
-                        <ul class="gradient">
-                            <img src="images/circle.png" alt="circle shape" class="circle">
-                            <li class="bigger-font">Skills</li>
-                            <li>Codekit</li>
-                            <li>GitHub</li>
-                            <li>Codepen</li>
-                            <li>Gitlab</li>
-                            <li>Terminal</li>
-                        </ul>
-                    </li>
-                </ul>       
-            </div>
-        </section>
-        <footer class="headline contact" id="contact" title="Contact-Me Section">        
-            <div class="text">
-                <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-            </div>
-            <form action="https://formspree.io/f/xyyvrrdo" method="post">
-                <ul class="formul">
-                    <li>
-                        <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30chars" required />
-                    </li>
-                    <li>
-                        <input type="email" id="mail" name="user_email" placeholder="Email address" required />
-                    </li>
-                    <li class="msgcontainer">
-                        <textarea id="msg" name="user_message" placeholder="Enter text here" maxlength="500"
-                            required></textarea>
-                    </li>
-                    <li class="button">
-                        <button type="submit" class="orange1 main-btn">Get in touch</button>
-                    </li>
-                </ul>
-            </form>
-        </footer>
-        <div class="parent social" title="Socialmedia Icons">
-            <div class="finisher"></div>
-            <ul class="socialmedia icons">
-                <li>
-                    <a href="#">
-                        <img src="images/github2.png" alt="gthub logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/linkedin2.png" alt="linkedin logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/chill2.png" alt="Chill">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/t2.png" alt="twitter logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/m2.png" alt="M logo">
-                    </a>
-                </li>
-            </ul>
-            <div class="shape">
-                <img src="images/Shape.png" alt="Bold straight line">
-            </div>
-        </div>
-        <script src="./script.js"></script>
-    </body>
+  </div>
+
+  <section class="works" id="portfolio">
+    <div class="recent-works-head">
+      <h2 class="recent-works">My Recent Works</h2>
+      <hr />
+    </div>
+
+    <div class="recent-works-words" id="recent">
+    </div>
+  </section>
+
+
+  <div id="proCard" class="Professional-cards">
+    
+  </div>
+
+  <section class="About-me" id="about">
+    <div class="about-column">
+      <h3 class="about">About me</h3>
+      <p class="about-words">
+        Hello I’m a software developer! I can help you build a product , feature
+        or website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hesitate to contact me.
+      </p>
+
+      <li class="resume-button">
+        <a href="#"><img src="images/resume.png" alt="" /></a>
+      </li>
+    </div>
+    <hr class="about-break" />
+  </section>
+
+  <section class="myskills">
+    <div class="col4">
+      <ul class="language">
+        <a class="icon" href="#"><img src="images/rectangle.svg" alt="rectangle" /></a>
+        <li>
+          <a class="tech">Languages</a>
+        </li>
+      </ul>
+      <ul class="list">
+        <li class="list">
+          <a class="skillset" href="#">Javascript</a>
+          <a class="skillset" href="#">Ruby</a>
+          <a class="skillset" href="#">Html</a>
+          <a class="skillset" href="#">Css</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col4">
+      <ul class="language">
+        <a class="icon" href="#"><img src="images/circle.png" alt="circle" /></a>
+        <li>
+          <a class="tech">Frameworks</a>
+        </li>
+      </ul>
+      <ul class="list">
+        <li class="list">
+          <a class="skillset" href="#">Bootstrap</a>
+          <a class="skillset" href="#">Ruby on Rails</a>
+          <a class="skillset" href="#">RSPec</a>
+          <a class="skillset" href="#">CapyBara</a>
+          <a class="skillset" href="#">Selenium</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col4">
+      <ul class="language">
+        <a class="icon" href="#"><img src="images/square.svg" alt="square" /></a>
+        <li>
+          <a class="tech">Skills</a>
+        </li>
+      </ul>
+      <ul class="list">
+        <li class="list">
+          <a class="skillset" href="#">Codekit</a>
+          <a class="skillset" href="#">Github</a>
+          <a class="skillset" href="#">Codepen</a>
+          <a class="skillset" href="#">Gitlab</a>
+          <a class="skillset" href="#">Terminal</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="form" id="contact">
+    <p class="form-words">
+      I'm always interested in hearing about new projects, so if you'd like to
+      chat please get in touch.
+    </p>
+
+    <form action="https://formspree.io/f/xyyvrrdo" method="post" class="contact-form" id="contact-form">
+      <ul class="form1">
+        <li class="form-item">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="fname" placeholder="Full name" autocomplete="off" required
+            maxlength="30" />
+        </li>
+        <li class="form-item">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email address" required autocomplete="off" />
+          <small class="contact-form-small"></small>
+        </li>
+        <li class="form-item">
+          <label for="textarea">Message</label>
+          <textarea id="textarea" name="textarea" cols="30" maxlength="500" placeholder="Enter text here"
+            required></textarea>
+        </li>
+        <li class="form-item btn-container">
+          <button type="submit" class="button3">Get in touch</button>
+        </li>
+      </ul>
+    </form>
+  </section>
+
+  <footer>
+    <ul class="socials1">
+      <li class="social-icon">
+        <a href="https://github.com/jkanyi-web"><img src="images/github1.png" alt="" /></a>
+      </li>
+      <li class="social-icon">
+        <a href="#">
+          <img src="images/github2.png" alt="gthub logo">
+        </a>
+      </li>
+      <li class="social-icon">
+        <a href="#">
+          <img src="images/linkedin2.png" alt="linkedin logo">
+        </a>
+      </li>
+      <li class="social-icon">
+        <a href="#">
+          <img src="images/chill2.png" alt="Chill">
+        </a>
+      </li>
+      <li class="social-icon">
+        <a href="#">
+          <img src="images/t2.png" alt="twitter logo">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/m2.png" alt="M logo">
+        </a>
+      </li>
+    </ul>
+
+    <div class="break1"></div>
+  </footer>
+
+</body>
+<script src="modal.js"></script>
+<script src="validation.js"></script>
+
 </html>
