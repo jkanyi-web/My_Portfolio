@@ -240,11 +240,6 @@ li {
   color: #fff;
 }
 
-.button:hover {
-  color: #ff6b00;
-  background-color: #f4f1f0;
-}
-
 .Professional {
   background-color: white;
   display: flex;
@@ -299,11 +294,6 @@ li {
   letter-spacing: 0.03em;
   color: #fff;
   margin-top: 22px;
-}
-
-.button2:hover {
-  background-color: #fff5e1;
-  color: #f55800;
 }
 
 .Professional:last-child {
@@ -657,7 +647,7 @@ label {
 }
 
 .card-button:hover {
-  background-color: var(--theame-color);
+  background-color: #f55800;
   color: #fff;
 }
 
