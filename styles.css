@@ -523,7 +523,7 @@ label {
   height: auto;
   z-index: 5;
   justify-content: center;
-  margin-bottom: 100px !important; 
+  margin-bottom: 100px !important;
 }
 
 .card {
@@ -631,7 +631,7 @@ label {
   display: flex;
   align-items: center;
   max-width: 700px;
-  margin: 3.125% 6.5% 1% 6.5%;
+  margin: 24.125% 6.5% 1% 6.5%;
   gap: 10px;
   justify-content: space-between;
 }
@@ -962,6 +962,15 @@ body article {
 
   .break1 {
     display: none;
+  }
+
+  #tech-list {
+    display: flex;
+    align-items: center;
+  }
+
+  #card-button-source {
+    margin-right: 100px !important;
   }
 }
 
