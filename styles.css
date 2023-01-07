@@ -240,11 +240,6 @@ li {
   color: #fff;
 }
 
-.button:hover {
-  color: #ff6b00;
-  background-color: #f4f1f0;
-}
-
 .Professional {
   background-color: white;
   display: flex;
@@ -301,11 +296,6 @@ li {
   margin-top: 22px;
 }
 
-.button2:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-}
-
 .Professional:last-child {
   margin-bottom: 120px;
 }
@@ -320,7 +310,7 @@ li {
   background-image: url(images/Group.png);
   background-repeat: no-repeat;
   background-position: right 0 bottom 120px;
-  background-position-y: 260px;
+  background-position-y: 370px;
 }
 
 .about {
@@ -523,6 +513,7 @@ label {
   height: auto;
   z-index: 5;
   justify-content: center;
+  margin-bottom: 100px !important;
 }
 
 .card {
@@ -561,8 +552,8 @@ label {
   width: 30px;
   padding-top: 0;
   transition: 0.3s;
-  top: 5%;
-  left: 88%;
+  top: 4%;
+  left: 90%;
   height: 20px;
   z-index: 5;
 }
@@ -610,7 +601,7 @@ label {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  margin: 3.125% 6.25%;
+  margin: 6.125%;
 }
 
 .card .tech {
@@ -630,7 +621,7 @@ label {
   display: flex;
   align-items: center;
   max-width: 700px;
-  margin: 3.125% 6.5% 1% 6.5%;
+  margin: 15.125% 6.5% 1% 6.5%;
   gap: 10px;
   justify-content: space-between;
 }
@@ -656,7 +647,7 @@ label {
 }
 
 .card-button:hover {
-  background-color: var(--theame-color);
+  background-color: #f55800;
   color: #fff;
 }
 
@@ -674,11 +665,16 @@ label {
 
 .invisible {
   display: none !important;
+  margin-bottom: 100px !important;
 }
 
 .contact-form-small {
   font-family: 'Inter', sans-serif;
   color: #dc3545;
+}
+
+body article {
+  margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {
@@ -957,6 +953,29 @@ label {
   .break1 {
     display: none;
   }
+
+  #tech-list {
+    display: flex;
+    align-items: center;
+  }
+
+  #card-button-source {
+    margin-right: 100px !important;
+  }
+
+  .card-cross {
+    top: 2%;
+    left: 96%;
+  }
+
+  #recent {
+    margin-left: -30px;
+  }
+
+  #proCard {
+    margin: 0;
+    padding: 0;
+    }
 }
 
 @media (min-width: 1024px) {
