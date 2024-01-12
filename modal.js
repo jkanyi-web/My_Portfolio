@@ -1,16 +1,13 @@
 const card1 = {
-  title1: 'Professional Art Printing Data',
-  title: 'Keeping track of hundreds  of components website',
+  title1: 'BudgetBuddy App',
+  title: 'BudgetBuddy App',
   techList: ['html', 'Bootstrap', 'Ruby on rails'],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-      typesetting, remaining essent'`,
+  description: `This is a Ruby on Rails application that allows the user to: register and log in, so that the data is private to them, introduce new transactions associated with a category and see the money spent on each category.`,
   link: [
-    'https://github.com/jkanyi-web/Microverse_Portfolio',
-    'https://github.com/jkanyi-web/',
+    'https://budgetbuddy-production.up.railway.app/',
+    'https://github.com/jkanyi-web/BudgetBuddy',
   ],
-  lilDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+  lilDescription: 'This is a Ruby on Rails application that allows the user to: register and log in, so that the data is private to them, introduce new transactions associated with a category and see the money spent on each category.',
   image: 'images/card1.png',
 };
 
@@ -136,13 +133,11 @@ const article1 = document.createElement('section');
 article1.className = 'recent-works-words1';
 article1.setAttribute('id', 'recent-works');
 article1.innerHTML = `
-    <img class="bgimage" src="images/Placeholder.png" alt="My recent works" />
+    <img class="bgimage" src="images/BudgetBuddy.png" alt="My recent works" />
     <article class="stories-words">
-        <h3 class="Stories">Multi-Post Stories</h3>
+        <h3 class="Stories">BudgetBuddy App</h3>
         <p class="work-words">
-            A daily selection of privately personalized reads; no accounts or sign-ups
-            required. has been the industry's standard dummy text ever since the
-            1500s, when an unknown printer took a standard dummy text.
+            This is a Ruby on Rails application that allows the user to: register and log in, so that the data is private to them, introduce new transactions associated with a category and see the money spent on each category.
         </p>
 
         <ul class="languages">
