@@ -1,17 +1,15 @@
 /* stylelint-disable length-zero-no-unit */
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Protest+Guerrilla&display=swap');
 
+/* stylelint-disable-next-line no-duplicate-selectors */
 html {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-/* stylelint-disable-next-line no-duplicate-selectors */
-html {
-  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
@@ -23,7 +21,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgb(151, 146, 146);
   box-shadow: inset 0 0 6px rgb(151, 146, 146);
-  background-color: #000;
+  background-color: #3c3a39;
 }
 /* stylelint-disable-next-line rule-empty-line-before */
 *,
@@ -98,10 +96,11 @@ html::-webkit-scrollbar-thumb {
 }
 
 .overlay-heading {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-style: normal;
   padding: 0 16px;
   color: #fff5e1;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 32px;
 }
 
@@ -117,6 +116,10 @@ html::-webkit-scrollbar-thumb {
 }
 
 .logo {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
@@ -238,6 +241,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  cursor: pointer;
 }
 
 .Professional {
@@ -294,6 +298,7 @@ li {
   letter-spacing: 0.03em;
   color: #fff;
   margin-top: 22px;
+  cursor: pointer;
 }
 
 .Professional:last-child {
@@ -335,6 +340,7 @@ li {
   margin-top: 10px;
   margin-bottom: 150px;
   padding-left: 0;
+  cursor: pointer;
 }
 
 .about-break {
@@ -464,6 +470,7 @@ textarea {
   height: 48px;
   padding: 10px;
   border: none;
+  cursor: pointer;
 }
 
 footer {
@@ -605,9 +612,6 @@ label {
 }
 
 .card .tech {
-  /* width: fit-content;
-  max-width: 330px;
-  margin-left: -7%; */
   display: flex;
   flex-direction: row;
   margin-left: 15px;
@@ -644,6 +648,7 @@ label {
   transition: 0.3s;
   padding: 0;
   max-width: 170px;
+  cursor: pointer;
 }
 
 .card-button:hover {
@@ -701,9 +706,9 @@ body article {
   .logo {
     color: white;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: "Lobster", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 40px;
     line-height: 20px;
   }
 
@@ -711,9 +716,9 @@ body article {
     color: white;
     text-decoration: none;
     padding: 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Lobster", sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 24px;
     line-height: 20px;
   }
 
@@ -813,21 +818,11 @@ body article {
     margin-bottom: 24px;
   }
 
-  /* .Professional:hover *:not(button) {
-    opacity: 0;
-  } */
-
   .button2:hover {
     background-color: #fff5e1;
     color: #f55800;
     display: block;
   }
-
-  /* .button2:active {
-    color: #f4f1f0;
-    background-color: #f4f1f0;
-    display: none;
-  } */
 
   .About-me {
     display: flex;
