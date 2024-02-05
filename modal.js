@@ -1,7 +1,7 @@
 const card1 = {
   title1: 'BudgetBuddy App',
   title: 'BudgetBuddy App',
-  techList: ['html', 'Bootstrap', 'Ruby on rails'],
+  techList: ['html', 'Bootstrap', 'Ruby on rails', 'PostgreSQL', 'Railway'],
   description: `This is a Ruby on Rails application that allows the user to: register and log in, so that the data is private to them, introduce new transactions associated with a category and see the money spent on each category.`,
   link: [
     'https://budgetbuddy-production.up.railway.app/',
