@@ -1,6 +1,6 @@
 const card1 = {
   title1: 'BudgetBuddy App',
-  title: 'BudgetBuddy App',
+  title: 'Budget App',
   techList: ['html', 'Bootstrap', 'Ruby on rails', 'PostgreSQL', 'Railway'],
   description: `This is a Ruby on Rails application that allows the user to: register and log in, so that the data is private to them, introduce new transactions associated with a category and see the money spent on each category.`,
   link: [
@@ -9,22 +9,22 @@ const card1 = {
   ],
   lilDescription: 'This is a Ruby on Rails application that allows the user to: register and log in, so that the data is private to them, introduce new transactions associated with a category and see the money spent on each category.',
   image: 'images/card1.png',
+  backgroundImage: 'images/BudgetBuddy.png',
 };
 
 const card2 = {
-  title1: 'Keeping track of hundreds  of components website',
-  title: 'Multi Post Stories',
-  techList: ['html', 'Bootstrap', 'Ruby on rails'],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-      typesetting, remaining essent'`,
+  title1: 'Veejayz-Gen-Store',
+  title: 'Veejayz-Gen-Store',
+  techList: ['React', 'Bootstrap', 'Redux'],
+  description: `This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux`,
   link: [
-    'https://github.com/jkanyi-web/Microverse_Portfolio',
-    'https://github.com/jkanyi-web/',
+    'https://frabjous-melomakarona-d24e59.netlify.app/',
+    'https://github.com/jkanyi-web/veejayz-gen-store',
   ],
-  lilDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+  lilDescription: 'This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux',
   image: 'images/card2.png',
+  backgroundImage: 'images/card2.png',
+
 };
 
 const card3 = {
@@ -167,24 +167,11 @@ for (let i = 0; i < projects.length; i += 1) {
   const proCard = document.querySelector('#proCard');
   const prof = document.createElement('section');
   prof.className = 'Professional';
+  prof.style.backgroundImage = `url(${projects[i].backgroundImage})`;
   prof.innerHTML = `
       <h3 class="heading5">${projects[i].title1}</h3>
-      <p class="art-words">
-        ${projects[i].lilDescription}
-      </p>
-      <ul class="f-item">
-        <li>
-          <a class="icon2" href="#"><img src="images/html1.png" alt="html" /></a>
-        </li>
-        <li>
-          <a class="icon2" href="#"><img src="images/bootstrap1.png" alt="bootstrap" /></a>
-        </li>
-        <li>
-          <a class="icon2" href="#"><img src="images/ruby1.png" alt="ruby" /></a>
-        </li>
-      </ul>
 
-      <div class=buttonlink onclick="modal(1)">
+      <div class=buttonlink onclick="modal(${i})">
         <button class="button2">See Project</button>
       </div>
   `;
