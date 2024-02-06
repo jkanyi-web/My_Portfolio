@@ -254,13 +254,15 @@ li {
   background-size: cover;
   margin-bottom: 24px;
   margin-top: 15%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .heading5 {
   font-family: 'Crete Round', serif;
   font-size: 32px;
   line-height: 44px;
-  color: #201e1e;
+  color: et#201e1e;
   padding-left: 20px;
 }
 
