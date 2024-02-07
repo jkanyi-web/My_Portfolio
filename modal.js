@@ -42,19 +42,17 @@ const card3 = {
 };
 
 const card4 = {
-  title1: 'Professional Art Printing Data',
-  title: 'Keeping track of hundreds  of components website',
-  techList: ['html', 'Bootstrap', 'Ruby on rails'],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-      typesetting, remaining essent'`,
+  title1: 'Book Store',
+  title: 'Book Store',
+  techList: ['React', 'Redux'],
+  description: `The React and Redux Bookstore app allows users to display a list of books, add a book and remove a selected book`,
   link: [
-    'https://github.com/jkanyi-web/Microverse_Portfolio',
-    'https://github.com/jkanyi-web/',
+    'https://bookstore-jkanyi-web.netlify.app/',
+    'https://github.com/jkanyi-web/bookstore-redo-cra',
   ],
-  lilDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
-  image: 'images/card2.png',
+  lilDescription: 'The React and Redux Bookstore app allows users to display a list of books, add a book and remove a selected book',
+  image: 'images/bookstore.PNG',
+  backgroundImage: 'images/bookstore.PNG',
 };
 
 const card5 = {
