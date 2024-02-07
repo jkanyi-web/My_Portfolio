@@ -67,7 +67,7 @@ In this project, I have set up my personal portfolio site for mobile devices.
 
 ## live demo <a name="live-demo"></a>
 
-To view the deployed project visit: <https://jkanyi-web.github.io/>
+To view the deployed project visit: <https://jkanyiz-portfolio.netlify.app/>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
