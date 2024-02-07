@@ -70,19 +70,17 @@ const card5 = {
 };
 
 const card6 = {
-  title1: 'Professional Art Printing Data ',
-  title: 'Keeping track of hundreds  of components website',
-  techList: ['html', 'Bootstrap', 'Ruby on rails'],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-      typesetting, remaining essent'`,
+  title1: 'AwesomeBooks',
+  title: 'AwesomeBooks',
+  techList: ['HTML', 'CSS', 'JavaScript'],
+  description: `This is a record-keeping of books and is built using Single Page Application functionality. Main language is JavaScript and HTMl with CSS used for styling.`,
   link: [
-    'https://github.com/jkanyi-web/Microverse_Portfolio',
-    'https://github.com/jkanyi-web/',
+    'https://stately-vacherin-562646.netlify.app/',
+    'https://github.com/jkanyi-web/AwesomeBooks-Es6',
   ],
-  lilDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
-  image: 'images/card2.png',
+  lilDescription: 'This is a record-keeping of books and is built using Single Page Application functionality. Main language is JavaScript and HTMl with CSS used for styling.',
+  image: 'images/awesome2.png',
+  backgroundImage: 'images/awsome.png',
 };
 
 const projects = [card1, card2, card3, card4, card5, card6];
