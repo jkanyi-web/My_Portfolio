@@ -56,19 +56,17 @@ const card4 = {
 };
 
 const card5 = {
-  title1: 'Professional Art Printing Data',
-  title: 'Keeping track of hundreds  of components website',
-  techList: ['html', 'Bootstrap', 'Ruby on rails'],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-        make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-        typesetting, remaining essent'`,
+  title1: 'MVRVA Transport',
+  title: 'MVRVA Transport',
+  techList: ['React', 'Bootstrap', 'Ruby on rails'],
+  description: `MVRVA Transport is a web application that allows users to make reservations for highlighted services. It is built with React(frontend) and Ruby on Rails(backend). The application allows users to make and delete a reservation while an admin can also make or delete a service`,
   link: [
-    'https://github.com/jkanyi-web/Microverse_Portfolio',
-    'https://github.com/jkanyi-web/',
+    'https://mvrva-transport-3zsz.onrender.com/',
+    'https://github.com/Al-Amin-Khan-Shakil/mvrva-transport-front-end',
   ],
-  lilDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
-  image: 'images/card2.png',
+  lilDescription: 'MVRVA Transport is a web application that allows users to make reservations for highlighted services. It is built with React(frontend) and Ruby on Rails(backend). The application allows users to make and delete a reservation while an admin can also make or delete a service',
+  image: 'images/mrvrva.png',
+  backgroundImage: 'images/mrvrva.PNG',
 };
 
 const card6 = {
