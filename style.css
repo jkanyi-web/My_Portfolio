@@ -70,15 +70,16 @@ html::-webkit-scrollbar-thumb {
 }
 
 .mobile-menu-overlay {
-  height: 100%;
-  width: 100%;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  left: 0;
   display: none;
   flex-direction: column;
   background-color: #3c3a39;
   padding-top: 18px;
   transition: all 0.5s ease-out;
-  overflow-x: hidden;
 }
 
 .overlay-cross-button {
