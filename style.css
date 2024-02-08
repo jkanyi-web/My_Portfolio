@@ -66,6 +66,7 @@ html::-webkit-scrollbar-thumb {
   text-decoration: none;
   padding: 20px;
   height: 48px;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .mobile-menu-overlay {
@@ -713,6 +714,7 @@ body article {
     background-color: #3c3a39;
     text-decoration: none;
     align-items: center;
+    animation: fadeIn 2s ease-in-out;
   }
 
   .logo {

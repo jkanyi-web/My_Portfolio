@@ -12,6 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script defer src="script.js"></script>
   <script src="https://kit.fontawesome.com/b89b7c8adf.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -43,7 +44,7 @@
       </li>
     </ul>
   </div>
-  <div class="header mobile-only">
+  <div class="header mobile-only"
     <a class="logo" href="/">Victor.K</a>
     <nav class="navigate" id="menu">
       <a href="#mobile-menu-overlay"><img src="images/Union.png" alt="" /></a>
@@ -60,7 +61,7 @@
 
   <div class="body2">
     <section>
-      <div class="heading-section">
+      <div class="heading-section" data-aos="fade-up">
         <div class="heading-section-text">
           <h1 class="heading">Hey There <br />I’m Victor Kanyi</h1>
           <h2 class="describe">...a Software Developer</h2>
@@ -91,7 +92,7 @@
     </section>
   </div>
 
-  <section class="works" id="portfolio">
+  <section class="works" id="portfolio" data-aos="fade-up">
     <div class="recent-works-head">
       <h2 class="recent-works">My Recent Works</h2>
       <hr />
@@ -100,10 +101,10 @@
     </div>
   </section>
 
-  <div id="proCard" class="Professional-cards">    
+  <div id="proCard" class="Professional-cards" data-aos="fade-up">    
   </div>
 
-  <section class="About-me" id="about">
+  <section class="About-me" id="about" data-aos="fade-up">
     <div class="about-column">
       <h3 class="about">About me</h3>
       <p class="about-words">
@@ -118,7 +119,7 @@
     <hr class="about-break" />
   </section>
 
-  <section class="myskills">
+  <section class="myskills" data-aos="fade-up">
     <div class="col4">
       <ul class="language">
         <a class="icon" href="#"><img src="images/rectangle.svg" alt="rectangle" /></a>
@@ -169,7 +170,7 @@
     </div>
   </section>
 
-  <section class="form" id="contact">
+  <section class="form" id="contact" data-aos="fade-up">
     <p class="form-words">
       I'm always interested in hearing about new projects, so if you'd like to
       chat please get in touch.
@@ -222,5 +223,9 @@
   <script src="modal.js"></script>
   <script src="validation.js"></script>
   <script src="localstorage.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
